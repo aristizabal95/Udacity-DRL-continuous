@@ -61,6 +61,12 @@ The environment is considered solved, when the average (over 100 episodes) of th
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
+3. Setup your Python environment following [this guide](https://github.com/udacity/deep-reinforcement-learning#dependencies). You should be using Python 3.6
+4. Install additional dependencies with
+   ```
+   pip install -r requirements.txt
+   ```
+5. Install Pytorch 0.4.0 through pytorch's older version's wheel found [here](https://pytorch.org/get-started/previous-versions/#old-pytorch-linux-binaries-compiled-with-cuda-75). Make sure to download the wheel compatible to your OS and python version.
 
 ### Instructions
 
